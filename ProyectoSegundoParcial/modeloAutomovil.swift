@@ -12,13 +12,14 @@ import UIKit
 class modeloAutomovil{
     
     var placas : String
-    var marca : String
-    var modelo : String
-    var dueño : String
-    var año : String
-    var foto : UIImage!
+    var marca : String?
+    var modelo : String?
+    var dueño : String?
+    var año : String?
+    var foto : String?
     
-    init(placas : String, marca : String, modelo : String, dueño : String, año : String, foto : UIImage){
+    
+    init(placas : String, marca : String, modelo : String, dueño : String, año : String, foto : String){
         
         self.año = año
         self.dueño = dueño

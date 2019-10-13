@@ -14,6 +14,7 @@ class cell_Automovil: UITableViewCell {
     @IBOutlet weak var lblDueño: UILabel!
     @IBOutlet weak var lblMarca: UILabel!
     @IBOutlet weak var lblModelo: UILabel!
+    @IBOutlet weak var lblAño: UILabel!
     @IBOutlet weak var imgCarro: UIImageView!
 
 }

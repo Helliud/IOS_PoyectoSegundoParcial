@@ -16,6 +16,10 @@
 		3D83B533234D22E600B8866B /* ProyectoSegundoParcialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D83B532234D22E600B8866B /* ProyectoSegundoParcialUITests.swift */; };
 		3D83B541234D311D00B8866B /* modeloAutomovil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D83B540234D311D00B8866B /* modeloAutomovil.swift */; };
 		3D83B544234D36D500B8866B /* cell_Automovil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D83B543234D36D500B8866B /* cell_Automovil.swift */; };
+		BE975BAD23513EC2002DC623 /* crearAutoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE975BAC23513EC2002DC623 /* crearAutoController.swift */; };
+		BEAC36312351AE0A00675B24 /* modeloGasolina.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC36302351AE0A00675B24 /* modeloGasolina.swift */; };
+		BEAC36332351AF3100675B24 /* cell_Gasolina.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC36322351AF3100675B24 /* cell_Gasolina.swift */; };
+		BEDF536423512FB800B6A7B1 /* editarAutoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF536323512FB800B6A7B1 /* editarAutoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		3D83B534234D22E600B8866B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D83B540234D311D00B8866B /* modeloAutomovil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeloAutomovil.swift; sourceTree = "<group>"; };
 		3D83B543234D36D500B8866B /* cell_Automovil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell_Automovil.swift; sourceTree = "<group>"; };
+		BE975BAC23513EC2002DC623 /* crearAutoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crearAutoController.swift; sourceTree = "<group>"; };
+		BEAC36302351AE0A00675B24 /* modeloGasolina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeloGasolina.swift; sourceTree = "<group>"; };
+		BEAC36322351AF3100675B24 /* cell_Gasolina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell_Gasolina.swift; sourceTree = "<group>"; };
+		BEDF536323512FB800B6A7B1 /* editarAutoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editarAutoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				3D83B51E234D22E600B8866B /* Info.plist */,
 				3D83B540234D311D00B8866B /* modeloAutomovil.swift */,
 				3D83B543234D36D500B8866B /* cell_Automovil.swift */,
+				BEDF536323512FB800B6A7B1 /* editarAutoController.swift */,
+				BE975BAC23513EC2002DC623 /* crearAutoController.swift */,
+				BEAC36302351AE0A00675B24 /* modeloGasolina.swift */,
+				BEAC36322351AF3100675B24 /* cell_Gasolina.swift */,
 			);
 			path = ProyectoSegundoParcial;
 			sourceTree = "<group>";
@@ -263,8 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D83B515234D22E300B8866B /* ViewController.swift in Sources */,
+				BEDF536423512FB800B6A7B1 /* editarAutoController.swift in Sources */,
 				3D83B541234D311D00B8866B /* modeloAutomovil.swift in Sources */,
+				BEAC36332351AF3100675B24 /* cell_Gasolina.swift in Sources */,
+				BEAC36312351AE0A00675B24 /* modeloGasolina.swift in Sources */,
 				3D83B544234D36D500B8866B /* cell_Automovil.swift in Sources */,
+				BE975BAD23513EC2002DC623 /* crearAutoController.swift in Sources */,
 				3D83B513234D22E300B8866B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
